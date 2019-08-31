@@ -17,7 +17,7 @@ PyAudio is used for the Python interface into PortAudio (https://pypi.org/projec
 
 Simply run mic_piper.py to start piping that audio and hearing yourself speak.
 
-Optionally, you can specify a chunk value. Chunk  is the number of frames into which the audio input is split before piping. By default, chunk=1, so you should be able to hear yourself immediately. Increase the chunk value to insert a delay in the loop. 
+Optionally, you can specify a chunk value. Chunk is the number of frames into which the audio input is split before piping. By default, chunk=1, so you should be able to hear yourself immediately. Increase the chunk value to insert a delay in the loop. 
 
 ## Warning!
 
