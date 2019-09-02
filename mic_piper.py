@@ -47,7 +47,7 @@ def main():
     """
 
     # Settings and such
-    CHUNK = 64 if len(sys.argv) < 2 else int(sys.argv[1])
+    CHUNK = 1 if len(sys.argv) < 2 else int(sys.argv[1])
     WIDTH = 2
     CHANNELS = 2
     RATE = 44100
